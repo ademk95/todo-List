@@ -18,7 +18,6 @@ editBtn.addEventListener('click', function () {
 
 });
 
-/*icerik kaydet*/
 
 function saveList() {
     var todoList = document.querySelector("#todoList").innerHTML;
@@ -26,7 +25,6 @@ function saveList() {
 }
 
 
-/*icerikTemizle - metodu*/
 var clearBtn = document.getElementById("clearBtn");
 
 clearBtn.addEventListener('click', function () {
@@ -36,7 +34,6 @@ clearBtn.addEventListener('click', function () {
 });
 
 
-/*icerik yenileme - depoda tutma - otomatik yenileme*/
 
 document.addEventListener("DOMContentLoaded", refreshList, false);
 
